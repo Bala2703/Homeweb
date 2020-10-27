@@ -1,0 +1,14 @@
+<p>{{ floorJson[floorIndex].rooms[roomIndex].roomId }}</p>
+<!-- <p>helo</p> -->
+
+<mat-card class="first"
+  style="margin-top: 20px"
+  *ngFor="let switch of floorJson[floorIndex].rooms[roomIndex].switchBoards"
+  >{{ switch.switchBoardId }}
+
+<mat-card-content>
+  <app-switch
+    *ngFor="let switch of floorJson[0].rooms[0].switchBoards[0].switches"
+    >{{ switch.switchName }}</app-switch
+  ></mat-card-content>
+</mat-card>

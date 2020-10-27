@@ -1,0 +1,21 @@
+<div class="sidenav">
+
+<mat-nav-list class="s">
+  <p mat-list-item color="primary" class="sapphire"><mat-icon color="primary"></mat-icon>SAPPHIRE</p>
+
+  <button (click)='onSelect(floor)' mat-raised-button  *ngFor="let floor of  floorJson" >{{floor.floorName}}</button>
+
+</mat-nav-list>
+
+
+
+
+
+
+
+</div>
+
+
+<div class="main"><app-roomnav  [floorIndex]="txfloorIndex"></app-roomnav>
+
+</div>

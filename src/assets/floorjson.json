@@ -1,0 +1,159 @@
+
+ [
+    {
+      "floorName": "Floor1",
+      "floorIndex":0,
+      "rooms": [
+        {
+          "roomId": "room1",
+          "roomIndex":0,
+          "roomIcon": "kitchen",
+          "roomStatus": true,
+          "switchBoards": [
+            {
+              "switchBoardId": "room1board1",
+              "switches": [
+                {
+                  "switchName": "Fan1",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "Fan2",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "light1",
+                  "switchType": "light",
+                  "switchState": true
+                }
+              ]
+            },
+            {
+              "switchBoardId": "room1board2",
+              "switches": [
+                {
+                  "switchName": "Fan1",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "Fan2",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "light1",
+                  "switchType": "light",
+                  "switchState": true
+                }
+              ]
+            }
+          ]
+        },
+         {
+          "roomId": "room2",
+          "roomIndex":1,
+          "roomIcon": "kitchen",
+          "roomStatus": true,
+          "switchBoards": [
+            {
+              "switchBoardId": "room2board1",
+              "switches": [
+                {
+                  "switchName": "Fan1",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "Fan2",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "light1",
+                  "switchType": "light",
+                  "switchState": true
+                }
+              ]
+            },
+            {
+              "switchBoardId": "room2board2",
+              "switches": [
+                {
+                  "switchName": "Fan1",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "Fan2",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "light1",
+                  "switchType": "light",
+                  "switchState": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "floorName": "Floor2",
+      "floorIndex":1,
+      "rooms": [
+        {
+          "roomId": "floor2room1",
+          "roomIndex":0,
+          "roomIcon": "kitchen",
+          "roomStatus": true,
+          "switchBoards": [
+            {
+              "switchBoardId": "board1",
+              "switches": [
+                {
+                  "switchName": "Fan1",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "Fan2",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "light1",
+                  "switchType": "light",
+                  "switchState": true
+                }
+              ]
+            },
+            {
+              "switchBoardId": "board2",
+              "switches": [
+                {
+                  "switchName": "Fan1",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "Fan2",
+                  "switchType": "Fan",
+                  "switchState": true
+                },
+                {
+                  "switchName": "light1",
+                  "switchType": "light",
+                  "switchState": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
