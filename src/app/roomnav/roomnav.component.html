@@ -1,8 +1,8 @@
 
-<p> {{floorJson[floorIndex].floorName}}</p>
+<!-- <p> {{floorJson[floorIndex].floorName}}</p> -->
 <!-- <button *ngFor="let room of floorJson[name].rooms">{{room.name}}</button> -->
 
-<button (click)='onSelect(room)' *ngFor="let room of floorJson[floorIndex].rooms">{{room.roomId}}</button>
+<button (click)='onSelect(room)' mat-raised-button *ngFor="let room of floorJson[floorIndex].rooms">  {{room.roomId}}</button>
 
 <!-- {{click}} -->
 

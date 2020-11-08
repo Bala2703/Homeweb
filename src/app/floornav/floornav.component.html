@@ -1,12 +1,16 @@
 <div class="sidenav">
+  <nav>
+  <button (click)="fireEvent()" mat-raised-button routerLink="Home">back</button>
+</nav>
+  <mat-nav-list class="s">
 
-<mat-nav-list class="s">
   <p mat-list-item color="primary" class="sapphire"><mat-icon color="primary"></mat-icon>SAPPHIRE</p>
 
-  <button (click)='onSelect(floor)' mat-raised-button  *ngFor="let floor of  floorJson" >{{floor.floorName}}</button>
+  <button (click)='onSelect(floor)' mat-raised-button  *ngFor="let floor of  floorJson"  >{{floor.floorName}}</button>
 
 </mat-nav-list>
-
+<!-- <app-clock></app-clock> -->
+<!-- <router-outlet></router-outlet> -->
 
 
 

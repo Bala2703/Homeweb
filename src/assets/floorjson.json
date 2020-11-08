@@ -1,17 +1,17 @@
 
  [
     {
-      "floorName": "Floor1",
+      "floorName": "FLOOR1",
       "floorIndex":0,
       "rooms": [
         {
-          "roomId": "room1",
+          "roomId": "ROOM1",
           "roomIndex":0,
           "roomIcon": "kitchen",
           "roomStatus": true,
           "switchBoards": [
             {
-              "switchBoardId": "room1board1",
+              "switchBoardId": "BOARD1",
               "switches": [
                 {
                   "switchName": "Fan1",
@@ -31,7 +31,7 @@
               ]
             },
             {
-              "switchBoardId": "room1board2",
+              "switchBoardId": "BOARD2",
               "switches": [
                 {
                   "switchName": "Fan1",
@@ -53,13 +53,13 @@
           ]
         },
          {
-          "roomId": "room2",
+          "roomId": "ROOM2",
           "roomIndex":1,
           "roomIcon": "kitchen",
           "roomStatus": true,
           "switchBoards": [
             {
-              "switchBoardId": "room2board1",
+              "switchBoardId": "BOARD1",
               "switches": [
                 {
                   "switchName": "Fan1",
@@ -79,7 +79,7 @@
               ]
             },
             {
-              "switchBoardId": "room2board2",
+              "switchBoardId": "BOARD2",
               "switches": [
                 {
                   "switchName": "Fan1",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "floorName": "Floor2",
+      "floorName": "FLOOR2",
       "floorIndex":1,
       "rooms": [
         {

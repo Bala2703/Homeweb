@@ -1,7 +1,13 @@
 
-<mat-card class="switch">
-  <mat-slide-toggle>Slide</mat-slide-toggle>
-
+<div fxLayout="row">
+<mat-card
+  class="switch"
+  *ngFor="
+    let switch of floorJson[floorIndex].rooms[roomIndex].switchBoards[
+      switchIndex
+    ].switches
+  "
+><div class="switchName" > <p class="hi"> {{ switch.switchName }}</p></div>
+  <mat-slide-toggle></mat-slide-toggle>
 </mat-card>
-
-
+</div>

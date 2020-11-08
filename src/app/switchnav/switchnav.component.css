@@ -1,11 +1,37 @@
-/* .first{
+.first{
 
 width: 649px;
-height: 131px; */
+height: 131px;
+margin-left: 50px;
 
-/*
-background: #FFFFFF;
-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-border-radius: 20px; */
+background: #fdfbfb;
+/* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); */
+border-radius: 20px;
+/* padding-top: 20px; */
 
-/* } */
+/* Rectangle 1516 */
+
+border: 1px solid #000000;
+/* box-sizing: border-box; */
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.25);
+/* border-radius: 20px; */
+
+
+ }
+.boardcard{
+  padding-top: 60px;
+
+
+  /* Line 2 */
+}
+/* app-switch{
+  margin-left: 50px;
+} */
+.line{
+  width:2px;
+  background-color:rgb(141, 133, 133);
+  position:absolute;
+  top:50px;
+  bottom:50px;
+  left:100px;
+}

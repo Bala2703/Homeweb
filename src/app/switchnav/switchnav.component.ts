@@ -10,6 +10,7 @@ import { RoomNav } from '../services/roomnav';
 export class SwitchnavComponent implements OnInit {
 _name=0;
 _floorIndex=0;
+_switchIndex=0;
 bala;
   floorJson;
   constructor(private _switchdata: FloorService) {}
@@ -26,7 +27,12 @@ set floorIndex(floorIndex:number)
 {
   this._floorIndex=floorIndex || 0
 }
-
+@Input()
+get switchIndex():number{return this._switchIndex}
+set switchIndex(switchIndex:number)
+{
+  this._switchIndex=switchIndex || 0
+}
 // @Output() onClick = new EventEmitter();
   ngOnInit(): void {
     this._switchdata.getFloors().subscribe((data) => (this.floorJson = data));

@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,Output,EventEmitter} from '@angular/core';
+
+import {Location} from '@angular/common';
 
 import { FloorService } from '../services/floor.service';
-
+import { CommunicationService } from "../services/communication.service";
+import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-floornav',
   templateUrl: './floornav.component.html',
@@ -12,7 +15,8 @@ export class FloornavComponent implements OnInit {
 
   public txfloorIndex: number;
 
-  constructor(private _floordata: FloorService) {}
+  @Output()public childEvent=new EventEmitter();
+  constructor(private _floordata: FloorService ,private communicationService: CommunicationService ) {}
 
   ngOnInit(): void {
     this._floordata
@@ -23,5 +27,9 @@ export class FloornavComponent implements OnInit {
   onSelect(floorparams) {
     this.txfloorIndex = floorparams.floorIndex;
     console.log(floorparams.floorName);
+
+  }
+  fireEvent(){
+    this.communicationService.emitChange("title");
   }
 }

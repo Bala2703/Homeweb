@@ -1,0 +1,22 @@
+.switch{
+padding: 2px;
+  /* Rectangle 1475 */
+
+/* position: absolute; */
+width: 90px;
+height: 80px;
+left: 100px;
+bottom: 58px;
+border-radius: 20px;
+background: #FFC42C;
+margin-left: 30px;
+color:black;
+}
+mat-slide-toggle{
+  margin-left: 20px;
+
+}
+.hi{
+  margin-left:27px;
+  margin-top: 6px;
+}
