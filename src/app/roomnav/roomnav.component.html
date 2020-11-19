@@ -1,9 +1,13 @@
 
 <!-- <p> {{floorJson[floorIndex].floorName}}</p> -->
 <!-- <button *ngFor="let room of floorJson[name].rooms">{{room.name}}</button> -->
+<!-- <div *ngIf="!deviceXs"> -->
 
 <button (click)='onSelect(room)' mat-raised-button *ngFor="let room of floorJson[floorIndex].rooms">  {{room.roomId}}</button>
 
 <!-- {{click}} -->
 
 <div><app-switchnav [floorIndex]="floorIndex" [roomIndex]="roomIndex"></app-switchnav></div>
+
+
+<!-- </div> -->

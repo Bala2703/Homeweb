@@ -2,6 +2,9 @@ import { Component, Input, OnInit , Output,EventEmitter} from '@angular/core';
 import { FloorService } from '../services/floor.service';
 import { RoomNav } from '../services/roomnav';
 
+import { ResizedEvent } from 'angular-resize-event';
+
+
 @Component({
   selector: 'app-switchnav',
   templateUrl: './switchnav.component.html',
@@ -41,4 +44,6 @@ set switchIndex(switchIndex:number)
 onSelect(switchparams){
   this.bala=switchparams.floorIndex
 }
+
+
 }

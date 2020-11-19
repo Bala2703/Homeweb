@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { FloorService } from '../services/floor.service';
 import { RoomNav } from '../services/roomnav';
+
+import { ResizedEvent } from 'angular-resize-event';
 @Component({
   selector: 'app-roomnav',
   templateUrl: './roomnav.component.html',
@@ -12,12 +14,16 @@ export class RoomnavComponent implements OnInit {
   public _roomIndex = 0;
   rxfloorIndex;
   roomIndex;
+
+@Input() deviceXs:boolean;
+
   @Input()
   get floorIndex(): number {
     return this._roomIndex;
   }
   set floorIndex(floorIndex: number) {
     this._roomIndex = floorIndex || 0;
+    this.roomIndex=0;
     this.rxfloorIndex=floorIndex
   }
 
@@ -35,4 +41,9 @@ export class RoomnavComponent implements OnInit {
 
     console.log(roomparams.roomId);
   }
+
+
+
+
+
 }

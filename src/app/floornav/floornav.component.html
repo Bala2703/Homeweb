@@ -1,25 +1,41 @@
 <div class="sidenav">
   <nav>
-  <button (click)="fireEvent()" mat-raised-button routerLink="Home">back</button>
-</nav>
+    <button class="back" (click)="fireEvent()" mat-mini-fab routerLink="Home">
+      <!-- <p class="arrow">&larr;</p> -->
+      <mat-icon>keyboard_arrow_left</mat-icon>
+    </button>
+  </nav>
   <mat-nav-list class="s">
+    <p mat-list-item color="primary" class="sapphire">
+      <mat-icon color="primary"></mat-icon>SAPPHIRE
+    </p>
 
-  <p mat-list-item color="primary" class="sapphire"><mat-icon color="primary"></mat-icon>SAPPHIRE</p>
+    <button
+      (click)="onSelect(floor)"
+      mat-raised-button
+      *ngFor="let floor of floorJson"
+    >
+      {{ floor.floorName }}
+    </button>
+  </mat-nav-list>
 
-  <button (click)='onSelect(floor)' mat-raised-button  *ngFor="let floor of  floorJson"  >{{floor.floorName}}</button>
-
-</mat-nav-list>
-<!-- <app-clock></app-clock> -->
-<!-- <router-outlet></router-outlet> -->
-
-
-
-
-
-
+  <!-- <router-outlet></router-outlet> -->
 </div>
 
+<div class="main">
+  <div class="a">
+    <mat-card class="temp"></mat-card>
+  </div>
+  <div class="mat">
+    <div class="clk">
+      <div class="center">
 
-<div class="main"><app-roomnav  [floorIndex]="txfloorIndex"></app-roomnav>
+        <app-clock></app-clock>
+      </div>
+    </div>
+  </div>
 
+
+  <app-roomnav [floorIndex]="txfloorIndex" [deviceXs]="deviceXs"></app-roomnav>
 </div>
+

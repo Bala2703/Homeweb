@@ -1,4 +1,4 @@
-import { Component, OnInit,Output,EventEmitter} from '@angular/core';
+import { Component, OnInit,Output,EventEmitter,Input} from '@angular/core';
 import { CommunicationService } from "../services/communication.service";
 @Component({
   selector: 'app-titles',
@@ -7,6 +7,7 @@ import { CommunicationService } from "../services/communication.service";
 })
 export class TitlesComponent implements OnInit {
 
+  @Input() deviceXs:boolean;
 
   constructor(
     private communicationService: CommunicationService) { }

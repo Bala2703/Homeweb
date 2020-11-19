@@ -22,6 +22,8 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { TitlesComponent } from './titles/titles.component';
 import { ClockComponent } from './clock/clock.component';
 
+import { AngularResizedEventModule } from 'angular-resize-event';
+
 // import {  } from "module";
 
 @NgModule({
@@ -38,7 +40,9 @@ import { ClockComponent } from './clock/clock.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,FlexLayoutModule,
-    MatButtonModule,HttpClientModule,MatIconModule,MatSidenavModule,MatListModule,MatCardModule
+    MatButtonModule,HttpClientModule,MatIconModule,MatSidenavModule,MatListModule,MatCardModule,
+    AngularResizedEventModule
+
   ],
   providers: [FloorService],
   bootstrap: [AppComponent]

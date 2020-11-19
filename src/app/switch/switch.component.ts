@@ -1,6 +1,9 @@
 import { Component, OnInit,Input } from '@angular/core';
 import { FloorService } from '../services/floor.service';
 
+import { ResizedEvent } from 'angular-resize-event';
+
+
 @Component({
   selector: 'app-switch',
   templateUrl: './switch.component.html',
@@ -35,5 +38,7 @@ set switchIndex(switchIndex:number)
     this._roomdata.getFloors()
     .subscribe((data) => (this.floorJson = data));
   }
+
+
 
 }

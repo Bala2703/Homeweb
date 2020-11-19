@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.analog-clock {
+  position: relative;
+  margin: 100px auto 0;
+  width: 140px;
+  height: 140px;
+  /* background-color: rgb(252, 245, 244);
+   */background-color: #FFC42C;
+   border: 10px solid white;
+  margin: 2em auto;
+  border-radius: 50%;
+}
+
+.hand {
+  position: absolute;
+  left: 50%;
+  width: 2.5px;
+  height: 70px;
+
+
+  transform-origin: 100% 100%;
+}
+
+.hour {
+  background-color: black;
+  width: 3px;
+  /* height:70px; */
+}
+
+.minute {
+  background-color: #3f51b5;
+  width: 2px;
+}
+
+.second {
+  background-color: #fc0707;
+  width:1px;
+}
+
+.center-circle {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 12px;
+  height: 12px;
+  background-color:black;
+  border-radius: 50%;
+}
+
+
+
+.digital-clock {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  font-size: 2em;
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+
+

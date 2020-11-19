@@ -14,17 +14,17 @@
               "switchBoardId": "BOARD1",
               "switches": [
                 {
-                  "switchName": "Fan1",
+                  "switchName": "FAN1",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "Fan2",
+                  "switchName": "FAN2",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "light1",
+                  "switchName": "LIGHT1",
                   "switchType": "light",
                   "switchState": true
                 }
@@ -34,17 +34,17 @@
               "switchBoardId": "BOARD2",
               "switches": [
                 {
-                  "switchName": "Fan1",
+                  "switchName": "FAN1",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "Fan2",
+                  "switchName": "FAN2",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "light1",
+                  "switchName": "LIGHT1",
                   "switchType": "light",
                   "switchState": true
                 }
@@ -62,17 +62,17 @@
               "switchBoardId": "BOARD1",
               "switches": [
                 {
-                  "switchName": "Fan1",
+                  "switchName": "FAN1",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "Fan2",
+                  "switchName": "FAN2",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "light1",
+                  "switchName": "LIGHT1",
                   "switchType": "light",
                   "switchState": true
                 }
@@ -82,17 +82,17 @@
               "switchBoardId": "BOARD2",
               "switches": [
                 {
-                  "switchName": "Fan1",
+                  "switchName": "FAN1",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "Fan2",
+                  "switchName": "FAN2",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "light1",
+                  "switchName": "LIGHT1",
                   "switchType": "light",
                   "switchState": true
                 }
@@ -116,17 +116,17 @@
               "switchBoardId": "board1",
               "switches": [
                 {
-                  "switchName": "Fan1",
+                  "switchName": "FAN1",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "Fan2",
+                  "switchName": "FAN2",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "light1",
+                  "switchName": "LIGHT1",
                   "switchType": "light",
                   "switchState": true
                 }
@@ -136,17 +136,17 @@
               "switchBoardId": "board2",
               "switches": [
                 {
-                  "switchName": "Fan1",
+                  "switchName": "FAN1",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "Fan2",
+                  "switchName": "FAN2",
                   "switchType": "Fan",
                   "switchState": true
                 },
                 {
-                  "switchName": "light1",
+                  "switchName": "LIGHT1",
                   "switchType": "light",
                   "switchState": true
                 }
